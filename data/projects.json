@@ -1,0 +1,173 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "title": "FPSO - Canada",
+        "short_description": "Compressor control system upgrade",
+        "short_scope": "Engineering & commissioning",
+        "description": "Control system migration from GE Fanuc to ABB Compact Suite including HMI. The scope covered four centrifugal gas natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with touch panels.",
+        "scope": ["logic extraction", "technical documentation", "PLC programming", "HMI development", "factory acceptance testing", "commissioning"],
+        "image": "tn-fpso-664x400-1.jpg",
+        "tech_skills": ["ABB 800xa", "Modbus TCP", "Bently Nevada"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
+        "id": "2",
+        "title": "Hydraulic dam - Sumatra, Indonesia",
+        "short_description": "Control system ugrade study",
+        "short_scope": "Substation OPC communication troubleshooting",
+        "description": "",
+        "scope": [],
+        "image": "id-pln-1147x860.jpg",
+        "tech_skills": ["Yokogawa", "OPC DA", "Bently Nevada"],
+        "system_skills": ["Hydraulic dam", "Speed control"],
+        "industry_skills": ["Power generation"]
+      },
+      {
+        "id": "3",
+        "title": "Acryl acid plant - Belgium",
+        "short_description": "Compressor control system upgrade",
+        "short_scope": "Engineering & commissioning",
+        "description": "",
+        "scope": [],
+        "image": "ba-980x683.jpg",
+        "tech_skills": ["Siemens S7", "Siemens PCS7", "WinCC"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Chemical plant"]
+      },
+      {
+        "id": "4",
+        "title": "Offshore platform - UK",
+        "short_description": "Recovery and hardware upgrade of obsolete HMI PCs",
+        "short_scope": "",
+        "description": "",
+        "scope": [],
+        "image": "etap-1116x744.jpg",
+        "tech_skills": ["Allen Bradley","Windows NT 3.5"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
+        "id": "5",
+        "title": "Natural gas pipeline - Compression station",
+        "short_description": "Cybersecurity upgrades",
+        "short_scope": "Commissioning",
+        "description": "",
+        "scope": [],
+        "image": "tap-863x486.jpg",
+        "tech_skills": ["Siemens PCS7","WinCC","Windows Server"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
+        "id": "6",
+        "title": "Steel plant - Spain",
+        "short_description": "Compressor control system migration",
+        "short_scope": "Engineering & commissioning",
+        "description": "",
+        "scope": [],
+        "image": "am-768x432.webp",
+        "tech_skills": ["MAN Turbolog","ABB Freelance"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Steel manufacturing"]
+      },
+      {
+        "id": "7",
+        "title": "Steel plant - Bosnia-Herzegovina",
+        "short_description": "Compressor control system migration",
+        "short_scope": "Engineering & commissioning",
+        "description": "",
+        "scope": [],
+        "image": "am-zn-1116x744.jpg",
+        "tech_skills": ["CCC S3++","ABB 800xa"],
+        "system_skills": ["Compressor","VFD","Steam turbine"],
+        "industry_skills": ["Steel manufacturing"]
+      },
+      {
+        "id": "8",
+        "title": "Natural gas platform - The Netherlands",
+        "short_description": "Gas compressor replacement",
+        "short_scope": "Commissioning",
+        "description": "",
+        "scope": [],
+        "image": "nam-992x744.JPG",
+        "tech_skills": [],
+        "system_skills": ["Compressor", "Lube oil system"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
+        "id": "9",
+        "title": "Natural gaz compression station - France",
+        "short_description": "Compressor control system upgrade",
+        "short_scope": "Commissioning",
+        "description": "",
+        "scope": [],
+        "image": "gazcomp-795x530.jpg",
+        "tech_skills": ["Siemens S7","WinCC"],
+        "system_skills": ["Compressor", "Magnetic bearing"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
+        "id": "10",
+        "title": "HBK, DLR Cologne",
+        "short_description": "Gas turbine high pressure combustion testing",
+        "short_scope": "Software development, commissioning, test operations",
+        "description": "",
+        "scope": [],
+        "image": "gt-1080x608.jpeg",
+        "tech_skills": ["NI LabVIEW", "NI cRIO"],
+        "system_skills": ["Gas turbine", "Combustor"],
+        "industry_skills": ["Power generation", "Aviation"]
+      },
+      {
+        "id": "11",
+        "title": "Software development",
+        "short_description": "Preventive maintenance web platform",
+        "short_scope": "Design, development, infrastructure & operation",
+        "description": "",
+        "scope": [],
+        "image": "turboinsight-1605x1127.png",
+        "tech_skills": ["Django","Linux","PostgreSQL","Web","Python","Docker"],
+        "system_skills": ["Compressor","Steam turbine"],
+        "industry_skills": ["Maintenance"]
+      },
+      {
+        "id": "12",
+        "title": "Software development",
+        "short_description": "Compressor performance calculation package",
+        "short_scope": "Development & integration",
+        "description": "",
+        "scope": [],
+        "image": "cmap-1358x744.png",
+        "tech_skills": ["Python"],
+        "system_skills": ["Compressor"],
+        "industry_skills": []
+      },
+      {
+        "id": "13",
+        "title": "Software development",
+        "short_description": "Data logging and trending application",
+        "short_scope": "Design & development",
+        "description": "",
+        "scope": [],
+        "image": "ftla-1918x1039.PNG",
+        "tech_skills": ["NI LabVIEW","OPC DA"],
+        "system_skills": [],
+        "industry_skills": []
+      },
+      {
+        "id": "14",
+        "title": "Software development",
+        "short_description": "Gas turbine combustion video monitoring application",
+        "short_scope": "Design, development & operation",
+        "description": "",
+        "scope": [],
+        "image": "vs-996x932.jpeg",
+        "tech_skills": ["NI LabVIEW","NI Vision"],
+        "system_skills": ["Gas turbine"],
+        "industry_skills": ["Power generation"]
+      }
+    ]
+  }
+  
