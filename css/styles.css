@@ -202,6 +202,46 @@ ul ol {
   margin-bottom: 0;
 }
 
+ul.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.skill-list li {
+padding: 10px 20px;
+border-bottom: 1px solid #e9ecef;
+transition: background-color 0.3s ease;
+}
+
+ul.skill-list li:last-child {
+border-bottom: none;
+}
+
+ul.skill-list li:hover {
+background-color: #f1f1f1;
+}
+
+ul.modal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.modal-list li {
+padding: 10px 20px;
+border: 1px solid #e9ecef;
+transition: background-color 0.3s ease;
+}
+
+/* ul.modal-list li:last-child {
+border-bottom: none;
+} */
+
+ul.modal-list li:hover {
+background-color: #f1f1f1;
+}
+
 dt {
   font-weight: 700;
 }
@@ -596,11 +636,6 @@ progress {
 }
 .blockquote-footer::before {
   content: "— ";
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 .img-thumbnail {
@@ -4163,7 +4198,7 @@ textarea.form-control-lg {
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;
-  --bs-card-color: ;
+  --bs-card-color: #000;
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
@@ -4175,9 +4210,23 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
   background-clip: border-box;
-  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  /* border: var(--bs-card-border-width) solid var(--bs-card-border-color); */
+  border: none;
   border-radius: var(--bs-card-border-radius);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
 }
+
+.card-title {
+background-color: #343a40;
+color: #fff;
+font-size: 1.5rem;
+padding: 15px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+margin-bottom: 0;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -4275,6 +4324,8 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  height: 12vw;
+  object-fit: cover;
 }
 
 .card-img,
@@ -10979,7 +11030,8 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 20rem;
+  border-radius: 5%;
 }
 
 @media (min-width: 992px) {
@@ -10988,7 +11040,7 @@ html {
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 2.75rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
@@ -11020,8 +11072,8 @@ html {
 
 .portfolio-modal .btn-close {
   color: #1abc9c;
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;

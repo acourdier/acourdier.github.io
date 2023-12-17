@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <title>A. Courdier | Systems engineer</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -16,136 +16,375 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <body>
+        <div id="content-navbar"></div>
+        <div id="content-masthead"></div>
+        <div id="content-modal"></div>
+        
+        <!-- Skills Section-->
+        <section class="page-section" id="skills">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
-            </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Skills Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase">Skills</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                <!-- Skills Section Content-->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Industrial engineering</h3>
+                                <ul class="skill-list">
+                                    <li><b>Core sciences</b><br>Where it all started. Heat transfer, thermodynamics, steam and gas cycles, gas compression.</li>
+                                    <li><b>Control systems</b><br>I know my classics. Siemens S7 and PCS7, ABB 800xa, Allen Bradley.</li>
+                                    <li><b>Protection systems</b><br>Closed systems = easy to commission. Bently Nevada 3300/3500, Woodward, Braun.</li>
+                                    <li><b>Instrumentation</b><br>Loop-checked them all. Pressures, temperatures, flows, vibrations. HART, analogue.</li>
+                                    <li><b>Hydraulic systems</b><br>Mechanical governors (this is actual engineering), lube and control oil systems.</li>
+                                    <li><b>NI LabVIEW</b><br>And all the NI ecosystem. Hardware, vision, real-time and FPGA modules.</li>
+                                    <li><b>Industrial communication</b><br>Once it works, don't touch it. OPC DA, OPC UA, Modbus, Profibus, TCP-based protocols.</li>
+                                    <li><b>Documentation</b><br>Wiring, cause & effect and logic diagrams. Can read them but can also make them.</li>
+                                </ul>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">IT & Programming</h3>
+                                <ul class="skill-list">
+                                    <li><b>Languages</b><br>Proficient in Python, some knowledge in .NET. Can do some bash scripts. Would love to learn Rust and C++.</li>
+                                    <li><b>Web development</b><br>Can build a website with Django, deploy it on Nginx, do the front-end in good old HTML/CSS/JS.</li>
+                                    <li><b>IEC 61131-3 PLC languages</b><br>They might be old-fashioned but some systems are running them since before I was born, so who am I to judge.</li>
+                                    <li><b>Virtualization and containers</b><br>VMware, HyperV, qemu (I love cli), Docker (I love Docker).</li>
+                                    <li><b>Operating systems</b><br>Linux (because this is the best), Windows Server (because we have to).</li>
+                                    <li><b>Network configuration and maintenance</b><br>Routing & iptables (discovered what headache means), troubleshooting.</li>
+                                    <li><b>CAD drawings</b><br>Solidworks, AutoCAD. I might be a bit rusty but that would come back.</li>
+                                </ul>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Personal</h3>
+                                <ul class="skill-list">
+                                    <li><b>Team work</b><br>International experience with multi-cultural teams.</li>
+                                    <li><b>Reporting</b><br>Factual, concise and objective.</li>
+                                    <li><b>Problem-solving</b><br>I will not let it go.</li>
+                                    <li><b>Innovation</b><br>There is always an alternative.</li>
+                                    <li><b>Adaptability</b><br>Worked offshore, in the jungle, in the desert. Also at the office.</li>
+                                    <li><b>Critical thinking</b><br>It is not because it is written that it is true.</li>
+                                    <li><b>Effective communication</b><br>System testing (FAT, SAT) with many end-users.</li>
+                                    <li><b>Time management</b><br>Used to work under high pressure in the field.</li>
+                                    <li><b>Leadership style</b><br>Small teams + few to-the-point meetings = quality delivery.</li>
+                                </ul>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio bg-primary text-white mb-0" id="portfolio">
             <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-white text-uppercase text-secondary mb-0">Portfolio</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
+                <!-- Portfolio Grid Items-->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Portfolio Item 1-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/tn-fpso-664x400-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>FPSO - Canada</h6>
+                                <p class="card-text">
+                                    Compressor control system upgrade<br>
+                                    Engineering & commissioning<br>
+                                </p>
+                                <span class="badge rounded-pill bg-primary">ABB 800xa</span>
+                                <span class="badge rounded-pill bg-primary">Modbus TCP</span>
+                                <span class="badge rounded-pill bg-primary">Bently Nevada</span>
+                                <span class="badge rounded-pill bg-secondary">Oil & gas</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/id-pln-1147x860.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Hydraulic dam - Sumatra, Indonesia</h6>
+                                <p class="card-text">
+                                    Control system ugrade study<br>
+                                    Substation OPC communication troubleshooting
+                                </p>
+                                <span class="badge rounded-pill bg-primary">Yokogawa</span>
+                                <span class="badge rounded-pill bg-primary">OPC DA</span>
+                                <span class="badge rounded-pill bg-secondary">Power generation</span>
+                                <span class="badge rounded-pill bg-secondary">Hydraulic dam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/ba-980x683.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Acryl acid plant - Belgium</h6>
+                                <p class="card-text">
+                                    Compressor control system upgrade<br>
+                                    Engineering & commissioning
+                                </p>
+                                <span class="badge rounded-pill bg-primary">Siemens S7</span>
+                                <span class="badge rounded-pill bg-primary">Siemens PCS7</span>
+                                <span class="badge rounded-pill bg-primary">WinCC</span>
+                                <span class="badge rounded-pill bg-secondary">Chemical plant</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/etap-1116x744.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Offshore platform - UK</h6>
+                                <p class="card-text">Recovery and hardware upgrade of obsolete HMI PCs</p>
+                                <span class="badge rounded-pill bg-primary">Allen Bradley</span>
+                                <span class="badge rounded-pill bg-primary">Windows NT 3.5</span>
+                                <span class="badge rounded-pill bg-secondary">Oil & gas</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/tap-863x486.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Natural gas pipeline - Compression station</h6>
+                                <p class="card-text">
+                                    Cybersecurity upgrades<br>
+                                    Commissioning
+                                </p>
+                                <span class="badge rounded-pill bg-primary">Siemens PCS7</span>
+                                <span class="badge rounded-pill bg-primary">WinCC</span>
+                                <span class="badge rounded-pill bg-primary">Windows Server</span>
+                                <span class="badge rounded-pill bg-secondary">Oil & gas</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/am-768x432.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Steel plant - Spain</h6>
+                                <p class="card-text">
+                                    Compressor control system migration<br>
+                                    Engineering & commissioning
+                                </p>
+                                <span class="badge rounded-pill bg-primary">MAN Turbolog</span>
+                                <span class="badge rounded-pill bg-primary">ABB Freelance</span>
+                                <span class="badge rounded-pill bg-secondary">Steel manufacturing</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 7-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/am-zn-1116x744.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Steel plant - Bosnia-Herzegovina </h6>
+                                <p class="card-text">
+                                    Compressor control system migration<br>
+                                    Engineering & commissioning
+                                </p>
+                                <span class="badge rounded-pill bg-primary">CCC S3++</span>
+                                <span class="badge rounded-pill bg-primary">ABB 800xa</span>
+                                <span class="badge rounded-pill bg-secondary">Steel manufacturing</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 8-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/nam-992x744.JPG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Natural gas platform - The Netherlands </h6>
+                                <p class="card-text">
+                                    Gas compressor replacement<br>
+                                    Commissioning
+                                </p>
+                                <span class="badge rounded-pill bg-secondary">Oil & gas</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 9-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/gazcomp-795x530.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Natural gaz compression station - France</h6>
+                                <p class="card-text">
+                                    Compressor control system upgrade<br>
+                                    Commissioning
+                                </p>
+                                <span class="badge rounded-pill bg-primary">Siemens S7</span>
+                                <span class="badge rounded-pill bg-primary">WinCC</span>
+                                <span class="badge rounded-pill bg-secondary">Oil & gas</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 10-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal10">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/gt-1080x608.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>HBK, DLR Cologne</h6>
+                                <p class="card-text">
+                                    Gas turbine high pressure combustion testing<br>
+                                    Software development, commissioning, test operations
+                                </p>
+                                <span class="badge rounded-pill bg-primary">NI LabVIEW</span>
+                                <span class="badge rounded-pill bg-primary">NI cRIO</span>
+                                <span class="badge rounded-pill bg-secondary">Power generation</span>
+                                <span class="badge rounded-pill bg-secondary">Gas turbine</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 11-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal11">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/turboinsight-1605x1127.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Software development</h6>
+                                <p class="card-text">
+                                    Preventive maintenance web platform<br>
+                                    Design, development, infrastructure & operation 
+                                </p>
+                                <span class="badge rounded-pill bg-primary">Django</span>
+                                <span class="badge rounded-pill bg-primary">Linux</span>
+                                <span class="badge rounded-pill bg-primary">PostgreSQL</span>
+                                <span class="badge rounded-pill bg-primary">Web</span>
+                                <span class="badge rounded-pill bg-primary">Python</span>
+                                <span class="badge rounded-pill bg-primary">Docker</span>
+                                <span class="badge rounded-pill bg-secondary">Turbomachinery</span>
+                                <span class="badge rounded-pill bg-secondary">Maintenance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 12-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal12">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/cmap-1358x744.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Software development</h6>
+                                <p class="card-text">
+                                    Compressor performance calculation package<br>
+                                    Development & integration
+                                </p>
+                                <span class="badge rounded-pill bg-primary">Python</span>
+                                <span class="badge rounded-pill bg-secondary">Turbomachinery</span>
+                                <span class="badge rounded-pill bg-secondary">Compressor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 13-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal13">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/ftla-1918x1039.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Software development</h6>
+                                <p class="card-text">
+                                    Data logging and trending application<br>
+                                    Design & development
+                                </p>
+                                <span class="badge rounded-pill bg-primary">NI LabVIEW</span>
+                                <span class="badge rounded-pill bg-primary">OPC DA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 14-->
+                    <div class="col">
+                        <div class="card h-100 portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal14">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img src="assets/img/portfolio/vs-996x932.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6>Software development</h6>
+                                <p class="card-text">
+                                    Gas turbine Combustion video monitoring application<br>
+                                    Design, development & operation
+                                </p>
+                                <span class="badge rounded-pill bg-primary">NI LabVIEW</span>
+                                <span class="badge rounded-pill bg-primary">NI Vision</span>
+                                <span class="badge rounded-pill bg-secondary">Power generation</span>
+                                <span class="badge rounded-pill bg-secondary">Gas turbine</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -154,7 +393,7 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Contact Section Form-->
@@ -217,43 +456,10 @@
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
-        </div>
+        
+
+        <div id="content-footer"></div>
+
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
@@ -263,23 +469,20 @@
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8">
+                                <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FPSO - Canada</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <img class="rounded mb-5" src="assets/img/portfolio/tn-fpso-664x400-1.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Description-->
+                                    <h6 class="text-secondary">Control system migration from GE Fanuc to ABB Compact Suite including HMI. The scope covered four centrifugal gas natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with touch panels.</h6>
+                                    <p class="text-secondary mt-4"><b>Key responsibilities:</b> Logic extraction, technical documentation, PLC programming, HMI development, factory acceptance testing, commissioning</p>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +504,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -333,7 +536,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -365,7 +568,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -397,7 +600,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -429,7 +632,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-cog"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -448,6 +651,7 @@
             </div>
         </div>
         <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
@@ -456,5 +660,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="app.js" type="text/javascript"></script>
     </body>
-</html>
+<html>
