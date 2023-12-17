@@ -67,6 +67,7 @@ $(document).ready(function() {
     loadSection('content-navbar', 'components/navbar.html');
     loadSection('content-footer', 'components/footer.html');
     loadSection('content-masthead', 'components/masthead.html');
+    loadSection('content-skills', 'components/skills.html');
     loadProjects(PROJECT_FILE, 'components/project-card.html');
     loadSection('content-modal', 'components/project-modal.html');
 });
