@@ -35,9 +35,9 @@ $(document).ready(function() {
             // Load the card template HTML
             $.get(template, function(cardTemplate) {
                 data.projects.forEach(function(project) {
-                    const skillsTech = project.tech_skills.map(skill => `<span class="badge rounded-pill bg-primary">${skill}</span>`).join(' ');
-                    const skillsSystem = project.system_skills.map(skill => `<span class="badge rounded-pill bg-secondary">${skill}</span>`).join(' ');
-                    const skillsIndustry = project.industry_skills.map(skill => `<span class="badge rounded-pill bg-warning">${skill}</span>`).join(' ');
+                    const skillsTech = project.tech_skills.map(skill => `<span class="badge rounded-pill bg-success">${skill}</span>`).join(' ');
+                    const skillsSystem = project.system_skills.map(skill => `<span class="badge rounded-pill bg-danger">${skill}</span>`).join(' ');
+                    const skillsIndustry = project.industry_skills.map(skill => `<span class="badge rounded-pill bg-dark">${skill}</span>`).join(' ');
 
                     // Use the loaded card template and populate with project details
                     var cardHtml = cardTemplate
