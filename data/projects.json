@@ -5,10 +5,22 @@
         "title": "FPSO - Canada",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Engineering & commissioning",
-        "description": "Control system migration from GE Fanuc to ABB Compact suite including HMI. The scope covered four centrifugal gas natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with touch panels.",
+        "description": "Control system migration from GE Fanuc to ABB Compact suite including HMI. The scope covered four centrifugal natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with touch panels.",
         "scope": ["logic extraction", "technical documentation", "PLC programming", "HMI development", "factory acceptance testing", "commissioning"],
         "image": "tn-fpso-664x400-1.jpg",
         "tech_skills": ["ABB 800xa", "Modbus TCP", "Bently Nevada"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
+        "id": "15",
+        "title": "FPSO - Nigeria",
+        "short_description": "Compressor control system upgrade",
+        "short_scope": "Commissioning",
+        "description": "Control system migration from Rockwell PLC-5 to RSLogix 5000 including HMI. The scope covered two centrifugal natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with new touch panels.",
+        "scope": ["commissioning"],
+        "image": "sa-fpso-827x468.jpg",
+        "tech_skills": ["Allen Bradley", "PLC-5", "RSLogix 5000", "Bently Nevada"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Oil & gas"]
       },
