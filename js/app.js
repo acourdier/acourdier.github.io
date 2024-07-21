@@ -11,14 +11,14 @@ $(document).ready(function() {
 
     // Function to load project data from JSON file and populate modal
     function loadProjectData(projectFile, projectId) {
-        console.log("LOADDATA");
         $.getJSON(projectFile, function(data) {
             console.log(data.projects);
             var project = data.projects.find(p => p.id === projectId);
             if (project) {
                 $('#projectModal .title').text(project.title);
+                $('#projectModal .short-description').text(project.short_description);
                 $('#projectModal .modal-img').attr('src', `assets/img/portfolio/${project.image}`);
-                $('#projectModal .description').text(project.description);
+                $('#projectModal .description').html(project.description);
                 $('#projectModal .scope').html(`<b>Key responsibilities:</b> ${project.scope.join(', ')}`);
             } else {
                 console.log('Project not found!');
