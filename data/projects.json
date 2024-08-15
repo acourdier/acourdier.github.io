@@ -13,7 +13,7 @@
         "industry_skills": ["Oil & gas"]
       },
       {
-        "id": "15",
+        "id": "16",
         "title": "FPSO - Nigeria",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Commissioning",
@@ -191,6 +191,18 @@
         "tech_skills": ["NI LabVIEW","NI Vision","Video processing", "Video streaming"],
         "system_skills": ["Gas turbine", "Video hardware and software"],
         "industry_skills": ["Power generation"]
+      },
+      {
+        "id": "17",
+        "title": "Master Thesis",
+        "short_description": "Gas turbine engine diagnostics using neural networks",
+        "short_scope": "Research and development",
+        "description": "As part of my MSc thesis, an artificial neural network based gas path diagnostic approach for engine power setting sensor fault detection and quantification was introduced. Nested artificial neural networks (ANN) are used to detect and accomodate power setting sensor fault and ensure prediction accuracy. Read the full paper at <a href='https://sci-hub.st/10.1115/gt2016-56304' target='_blank'>SciHub</a>",
+        "scope": ["research"],
+        "image": "OIG2.jpg",
+        "tech_skills": ["Machine Learning","Neural networks","Matlab"],
+        "system_skills": ["Gas turbine"],
+        "industry_skills": ["Power generation","Aviation"]
       }
     ]
   }
