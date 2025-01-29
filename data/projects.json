@@ -1,6 +1,18 @@
 {
     "projects": [
       {
+        "id": "18",
+        "title": "Offshore platform - Denmark",
+        "short_description": "Compressor control system upgrade",
+        "short_scope": "Installation, wiring and commissioning",
+        "description": "Control system upgrade from GE Fanuc to ABB 800xa including HMI and vibration protection system upgrade from Dresser-Rand to Bently Nevada Orbit 60. The scope covered two natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were integrated into the existing ABB 800xa DCS. The tasks involved the installation and wiring of the new panels into the existing cabinet.",
+        "scope": ["cabinet installation and wiring", "commissioning"],
+        "image": "sdk-940x564.jpg",
+        "tech_skills": ["GE Fanuc", "ABB 800xa", "Bently Nevada Orbit60"],
+        "system_skills": ["Compressor"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
         "id": "1",
         "title": "FPSO - Canada",
         "short_description": "Compressor control system upgrade",
