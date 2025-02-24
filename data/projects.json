@@ -1,6 +1,18 @@
 {
     "projects": [
       {
+        "id": "19",
+        "title": "Natural gas extraction plant - Peru",
+        "short_description": "Turbo-compressor trains control system upgrade",
+        "short_scope": "Site survey",
+        "description": "This study aimed to assess various upgrades solutions for control and protection systems of five turbo-compressor trains located at a gas extraction plant in the Amazonian forest. The deliverables included a +/-30% cost estimate for each solution.",
+        "scope": ["site survey", "budget offer"],
+        "image": "pp-pe-730x412.jpg",
+        "tech_skills": ["GE Mark VI", "Bently Nevada Orbit60", "CCC S3+"],
+        "system_skills": ["Gas turbine", "Compressor"],
+        "industry_skills": ["Oil & gas"]
+      },
+      {
         "id": "18",
         "title": "Offshore platform - Denmark",
         "short_description": "Compressor control system upgrade",
