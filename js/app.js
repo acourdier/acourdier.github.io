@@ -1,5 +1,6 @@
 // Project constants
 const PROJECT_FILE = 'data/projects.json'
+const SKILLS_FILE = 'data/skills.json'
 
 $(document).ready(function() {
     // Function to load HTML snippets and populate HTML sections
@@ -16,6 +17,7 @@ $(document).ready(function() {
             var project = data.projects.find(p => p.id === projectId);
             if (project) {
                 $('#projectModal .title').text(project.title);
+                $('#projectModal .location').text(project.location);
                 $('#projectModal .short-description').text(project.short_description);
                 $('#projectModal .modal-img').attr('src', `assets/img/portfolio/${project.image}`);
                 $('#projectModal .description').html(project.description);
@@ -57,6 +59,55 @@ $(document).ready(function() {
         });
     }
 
+    function populateSkill(skill, template) {
+        const skills = skill.skills.map(skill => `<span class="skill-badge bg-dark">${skill}</span>`).join(' ');
+
+            // Use the loaded card template and populate with project details
+            var cardHtml = template
+                .replace('{{name}}', skill.name)
+                .replace('{{description}}', skill.description ? `${skill.description}` : '')
+                .replace('{{image}}', `assets/img/skills/${skill.image}`)
+                .replace('{{imageAlt}}', skill.name)
+                .replace('{{skills}}', skills);
+
+        return cardHtml;
+    }  
+
+    // Function to load skills data into skills grid
+    function loadSkills(filename, template) {
+        $.getJSON(filename, function(data) {
+            const industrySkills = $('#industrySkills');
+            const programmingSkills = $('#programmingSkills');
+            const personalSkills = $('#personalSkills');
+            var cardHtml;
+            
+            
+            // Load the card template HTML
+            $.get(template, function(template) {
+                data.skills_industry.forEach(function(skill) {
+                    // Use the loaded card template and populate with skills data
+                    cardHtml = populateSkill(skill, template);
+                    // Append the generated card HTML to the container
+                    industrySkills.append(cardHtml);
+                });
+
+                data.skills_programming.forEach(function(skill) {
+                    // Use the loaded card template and populate with skills data
+                    cardHtml = populateSkill(skill, template);
+                    // Append the generated card HTML to the container
+                    programmingSkills.append(cardHtml);
+                });
+
+                data.skills_personal.forEach(function(skill) {
+                    // Use the loaded card template and populate with skills data
+                    cardHtml = populateSkill(skill, template);
+                    // Append the generated card HTML to the container
+                    personalSkills.append(cardHtml);
+                });
+            });
+        });
+    }
+
     // Event listener for loading project data
     $('#portfolio').on('click', '.card', function(){
         const projectId = $(this).attr('project-id')
@@ -67,8 +118,9 @@ $(document).ready(function() {
     loadSection('content-navbar', 'components/navbar.html');
     loadSection('content-footer', 'components/footer.html');
     loadSection('content-masthead', 'components/masthead.html');
-    loadSection('content-skills', 'components/skills.html');
+    loadSection('content-skills', 'components/skills2.html');
     loadProjects(PROJECT_FILE, 'components/project-card.html');
+    loadSkills(SKILLS_FILE, 'components/skill-component.html');
     loadSection('content-modal', 'components/project-modal.html');
 });
 

@@ -2,7 +2,8 @@
     "projects": [
       {
         "id": "19",
-        "title": "Natural gas extraction plant - Peru",
+        "title": "Natural gas extraction plant",
+        "location": "Peru",
         "short_description": "Turbo-compressor trains control system upgrade",
         "short_scope": "Site survey",
         "description": "This study aimed to assess various upgrades solutions for control and protection systems of five turbo-compressor trains located at a gas extraction plant in the Amazonian forest. The deliverables included a +/-30% cost estimate for each solution.",
@@ -14,7 +15,8 @@
       },
       {
         "id": "18",
-        "title": "Offshore platform - Denmark",
+        "title": "Offshore platform",
+        "location": "Denmark",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Installation, wiring and commissioning",
         "description": "Control system upgrade from GE Fanuc to ABB 800xa including HMI and vibration protection system upgrade from Dresser-Rand to Bently Nevada Orbit 60. The scope covered two natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were integrated into the existing ABB 800xa DCS. The tasks involved the installation and wiring of the new panels into the existing cabinet.",
@@ -26,7 +28,8 @@
       },
       {
         "id": "1",
-        "title": "FPSO - Canada",
+        "title": "FPSO",
+        "location": "Canada",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Engineering & commissioning",
         "description": "Control system migration from GE Fanuc to ABB Compact suite including HMI. The scope covered four centrifugal natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with touch panels.",
@@ -38,7 +41,8 @@
       },
       {
         "id": "16",
-        "title": "FPSO - Nigeria",
+        "title": "FPSO",
+        "location": "Nigeria",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Commissioning",
         "description": "Control system migration from Rockwell PLC-5 to RSLogix 5000 including HMI. The scope covered two centrifugal natural gas compressors. The upgrade was done following a like-for-like replacement logic. The HMI were upgraded with new touch panels.",
@@ -50,7 +54,8 @@
       },
       {
         "id": "2",
-        "title": "Hydraulic dam - Sumatra, Indonesia",
+        "title": "Hydraulic dam",
+        "location": "Sumatra, Indonesia",
         "short_description": "Control system ugrade study",
         "short_scope": "Substation OPC communication troubleshooting",
         "description": "Upgrade study of aging control system and communication troubleshooting between the dam substation and the main operating facilities located in the nearby town. The communication is performed via OPC over a fibre optic line. An analysis of the communicaton system architecture showed that many intermediate OPC gateways were used with multiple protocols (XML, DA), hereby causing heavy delays and disruptions. A solution was found by configuring OPC DA with only one server and one client on either ends of the line.",
@@ -62,7 +67,8 @@
       },
       {
         "id": "3",
-        "title": "Acrylic acid plant - Belgium",
+        "title": "Acrylic acid plant",
+        "location": "Belgium",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Engineering & commissioning",
         "description": "The Siemens PCS7 control system was replaced by a Siemens S7 redundant control system for two electric-motor-driven centrifugal compressors equipped with inlet guide vanes. The new control system featured anti-surge control, performance control using in-house control applications and Modbus communication with the DCS. The performed tasks included engineering (survey, technical documentation, software development) and commissioning (acceptance tests, start-up and tuning).",
@@ -74,7 +80,8 @@
       },
       {
         "id": "4",
-        "title": "Offshore platform - UK",
+        "title": "Offshore platform",
+        "location": "UK",
         "short_description": "Recovery and hardware upgrade of obsolete HMI PCs",
         "short_scope": "",
         "description": "The control system of the four centrifugal compressors is based on Allen-Bradley PLC5 hardware and featured two beyond obsolete redundant HMI stations relying on Windows NT3.5 and a discontinued HMI software. The failure of one of the PC led to a potential single point failure of the whole process in case of failure of the second machine. Two new PCs were assembled using modern hardware and a succesful migration of the existing HMI software could be done by 'upgrading' to Windows NT4.0. The main challenge was to run old software on modern hardware and re-use the long-discontinued communication cards.",
@@ -87,6 +94,7 @@
       {
         "id": "5",
         "title": "Natural gas pipeline - Compression station",
+        "location": "",
         "short_description": "Cybersecurity upgrades",
         "short_scope": "Commissioning",
         "description": "All compression stations along this natural gas pipeline installation were upgraded to new cybersecurity standards, including installation of new hardware and software. This involved some modifications of the network components and wiring, and reconfiguration of the control systems and workstations. The scope was focused on the unit control panel side, together with other teams responsible for the DCS side.",
@@ -98,7 +106,8 @@
       },
       {
         "id": "6",
-        "title": "Steel plant - Spain",
+        "title": "Steel plant",
+        "location": "Spain",
         "short_description": "Compressor control system migration",
         "short_scope": "Engineering & commissioning",
         "description": "The obsolete MAN Turbolog control system was replaced by an ABB Freelance system for one of the three axial electric-motor-driven air compressors supplying air to the blast furnaces used for iron production. The new system featured a redundant architecture and was equipped with in-house applications for anti-surge control and performance control via the inlet guide vanes.",
@@ -110,7 +119,8 @@
       },
       {
         "id": "7",
-        "title": "Steel plant - Bosnia-Herzegovina",
+        "title": "Steel plant",
+        "location": "Bosnia-Herzegovina",
         "short_description": "Compressor control system migration",
         "short_scope": "Engineering & commissioning",
         "description": "The CCC S3++ control system was replaced and integrated into the existing ABB 800xa DCS for one of the two centrifugal steam-turbine-driven air compressors supplying air to the blast furnaces used for iron production. The steam turbine was replaced by an electric motor and a new gear box was installed. The new control system was equipped with in-house applications for anti-surge control and performance control via the variable frequency drive.",
@@ -122,7 +132,8 @@
       },
       {
         "id": "8",
-        "title": "Natural gas platform - The Netherlands",
+        "title": "Natural gas platform",
+        "location": "The Netherlands",
         "short_description": "Gas compressor replacement",
         "short_scope": "Commissioning",
         "description": "A gas-turbine-driven compressor was replaced by a skid-mounted electric-motor-driven centrifugal compressor. All auxiliaries were replaced and the complete system was commissioned.",
@@ -134,7 +145,8 @@
       },
       {
         "id": "9",
-        "title": "Natural gaz compression station - France",
+        "title": "Natural gaz compression station",
+        "location": "France",
         "short_description": "Compressor control system upgrade",
         "short_scope": "Commissioning",
         "description": "The Siemens S7 redundant control systems for three electric-motor-driven natural gas compressors needed hadware replacement due to obsolescence. The WinCC HMI touch panels were also upgraded and the system was re-commissioned.",
@@ -147,6 +159,7 @@
       {
         "id": "10",
         "title": "HBK, DLR Cologne",
+        "location": "Germany",
         "short_description": "Gas turbine high pressure combustion testing",
         "short_scope": "Software development, commissioning, test operations",
         "description": "Combustor testing operations for major gas turbine OEMs. Prototypes of new combustion chambers were tested, including new designs for sequential combustion and new fuels such as hydrogen. This was mainly for heavy duty gas turbine engines but also for some aircraft engines. This included development and maintenance of the in-house data acquisition system, commissioning activities and test operation support.",
@@ -159,6 +172,7 @@
       {
         "id": "11",
         "title": "Software development",
+        "location": "The Netherlands",
         "short_description": "Preventive maintenance web platform",
         "short_scope": "Design, development, infrastructure & operation",
         "description": "Development from scratch with a small team of a web platform enabling customers to monitors their turbomachinery assets online. The platform features user/company authentication, raw data monitoring, automated data analytics with scheduled jobs, alarm and report generation. The platform is hosted in-house on self-managed servers. Visit it now and try the demo at <a href='https://turboinsight.cc' target='_blank'>TurboInsight</a>.",
@@ -171,6 +185,7 @@
       {
         "id": "12",
         "title": "Software development",
+        "location": "The Netherlands",
         "short_description": "Compressor performance calculation package",
         "short_scope": "Development & integration",
         "description": "As part of an asset performance monitoring platform for an external customer, a compressor performance calculation package was developed. The package was developed in Python and succesfully integrated into a .NET environment.",
@@ -183,6 +198,7 @@
       {
         "id": "13",
         "title": "Software development",
+        "location": "The Netherlands",
         "short_description": "Steam turbine performance calculation algorithm",
         "short_scope": "Development & integration",
         "description": "As part of the TurboInsight asset performance monitoring platform, a steam turbine performance calculation package was developed. The package was developed in Python using the Pyromat library for thermodynamics properties computation. The algorithm handles multiple sensor configurations and computes the cycle thermal efficiency, the turbine and pump isentropic efficiencies and the cycle thermal power. The calculation is run daily and provides average and time-dependent outputs.",
@@ -195,6 +211,7 @@
       {
         "id": "14",
         "title": "Software development",
+        "location": "The Netherlands",
         "short_description": "Data logging and trending application",
         "short_scope": "Design & development",
         "description": "Initially required for various testing operations (performance monitoring, surge testing), this application was developed as a general purpose data acquisition tool. It relies on OPC DA for data communication and allows for fast data acquisition rates. The application also enables the user to easily browse into the history while data keeps on logging, analyse the data using cursors and predefined calculations such as average, standard deviation or rate of change.",
@@ -207,6 +224,7 @@
       {
         "id": "15",
         "title": "Software development",
+        "location": "UK",
         "short_description": "Gas turbine combustion video monitoring application",
         "short_scope": "Design, development & operation",
         "description": "As part of gas turbine high pressure combustion testing activities, a new video monitoring and recording application was developed, enabling the monitoring of the flame inside the combustor. The camera is mounted on a nitrogen and water cooled endoscope peeking inside the combustor liner and withstanding scorching temperatures. The application enables the user to choose among four different individual video channels or monitor them as a quad display, configure the image settings and acquisition rate. The video stream is compressed in real time to h264 in order to save storage, and could be streamed to a remote location using a TCP-based protocol and a specifically designed remote client. Finally, the image was overlayed with current operating conditions, such as temperatures, pressures and time.",
@@ -219,6 +237,7 @@
       {
         "id": "17",
         "title": "Master Thesis",
+        "location": "UK",
         "short_description": "Gas turbine engine diagnostics using neural networks",
         "short_scope": "Research and development",
         "description": "As part of my MSc thesis, an artificial neural network based gas path diagnostic approach for engine power setting sensor fault detection and quantification was introduced. Nested artificial neural networks (ANN) are used to detect and accomodate power setting sensor fault and ensure prediction accuracy. Read the full paper at <a href='https://sci-hub.st/10.1115/gt2016-56304' target='_blank'>SciHub</a>",

@@ -1,0 +1,157 @@
+{
+    "skills_industry": [
+      {
+        "id": "1",
+        "name": "Core engineering sciences",
+        "skills": ["Heat transfer", "Thermodynamics", "Electricity", "Mechanics"],
+        "image":"testtube-svgrepo-com.svg"
+      },
+      {
+        "id": "2",
+        "name": "Turbomachinery",
+        "skills": ["Steam turbines", "Gas turbines", "Compressors"],
+        "image":"factory-svgrepo-com.svg"
+      },
+      {
+        "id": "3",
+        "name": "Control systems",
+        "skills": ["Siemens S7/PCS7", "Rockwell Allen Bradley", "ABB 800xa", "Honeywell C300", "WinCC", "GE Mark VI", "Bently Nevada 3500", "Bently Nevada Orbit60", "Woodward Protech", "IEC 61131-3"],
+        "image":"chip-memory-svgrepo-com.svg"
+      },
+      {
+        "id": "4",
+        "name": "Industrial networks",
+        "skills": ["OPC DA", "OPC UA", "Profibus", "Modbus", "TCP/IP", "Firewall", "Wireshark", "Siemens Scalance"],
+        "image":"connection-gateway-svgrepo-com.svg"
+      },
+      {
+        "id": "5",
+        "name": "Instrumentation",
+        "skills": ["Pressure", "Temperature", "Flow", "Vibration", "Speed", "HART"],
+        "image":"pressure-alt-svgrepo-com.svg"
+      },
+      {
+        "id": "6",
+        "name": "Project and documentation",
+        "skills": ["P&ID", "Wiring diagram", "Cause & effect", "Logic diagram", "IO list", "Functional description", "Commissioning procedure", "Factory acceptance test", "Site acceptance test"],
+        "image":"document-svgrepo-com.svg"
+      }
+    ],
+    "skills_programming": [
+      {
+        "id": "1",
+        "name": "Languages",
+        "skills": ["Python", "Javascript", "Bash scripts"],
+        "logos": ["python-svgrepo-com.svg", "javascript-svgrepo-com.svg", "bash-icon-svgrepo-com.svg"],
+        "image":"programming-code-signs-svgrepo-com.svg"
+      },
+      {
+        "id": "2",
+        "name": "Web",
+        "skills": ["Django", "Vue3", "Laravel", "Bootstrap", "Tailwind CSS", "HTML", "CSS", "Javascript", "Nginx", "Git", "Github"],
+        "image":"web-svgrepo-com.svg"
+      },
+      {
+        "id": "3",
+        "name": "Databases",
+        "skills": ["PostgreSQL", "MySQL", "SQLite", "TimescaleDB"],
+        "image":"database-svgrepo-com.svg"
+      },
+      {
+        "id": "4",
+        "name": "NI LabVIEW",
+        "skills": ["cRIO", "Vision", "FPGA", "Real-time"],
+        "image":"labview-svgrepo-com.svg"
+      },
+      {
+        "id": "5",
+        "name": "Libraries",
+        "skills": ["NumPy", "Pandas", "Statsmodels", "Scikit", "Jupyter"],
+        "image":"module-management-svgrepo-com.svg"
+      },
+      {
+        "id": "6",
+        "name": "Virtualization",
+        "skills": ["VMWare", "HyperV", "Qemu", "Docker"],
+        "image":"virtual-machine-svgrepo-com.svg"
+      },
+      {
+        "id": "7",
+        "name": "Operating systems",
+        "skills": ["Linux", "Windows"],
+        "image":"linux-ubuntu-148-svgrepo-com.svg"
+      },
+      {
+        "id": "8",
+        "name": "Network and infrastructure",
+        "skills": ["Firewall", "TCP/IP", "IPtables", "Wireshark", "Nmap", "OpenVPN", "SSH", "Telnet", "FTP"],
+        "image":"network-wired-svgrepo-com.svg"
+      }
+    ],
+    "skills_personal": [
+      {
+        "id": "1",
+        "name": "Team work",
+        "description": "International experience within multi-cultural teams.",
+        "skills": [],
+        "image":"team-svgrepo-com.svg"
+      },
+      {
+        "id": "2",
+        "name": "Independence",
+        "description": "Resourceful for finding information and for self-training.",
+        "skills": [],
+        "image":"thinking-person-analyze-think-thinking-process-svgrepo-com.svg"
+      },
+      {
+        "id": "3",
+        "name": "Reporting",
+        "description": "Factual, concise and objective approach.",
+        "skills": [],
+        "image":"manage-dashboard-analytic-svgrepo-com.svg"
+      },
+      {
+        "id": "4",
+        "name": "Problem-solving",
+        "description": "Persistence, based on pre-defined methodology.",
+        "skills": [],
+        "image":"thinking-svgrepo-com.svg"
+      },
+      {
+        "id": "5",
+        "name": "Innovation",
+        "description": "Follow-up of latest trends, integration of new techs.",
+        "skills": [],
+        "image":"bulb-lighting-svgrepo-com.svg"
+      },
+      {
+        "id": "6",
+        "name": "Critical thinking",
+        "description": "Assessment of current solutions, identification of weaknesses.",
+        "skills": [],
+        "image":"warning-svgrepo-com.svg"
+      },
+      {
+        "id": "7",
+        "name": "Communication",
+        "description": "Effective system testing (FAT, SAT) and training with many end-users.",
+        "skills": [],
+        "image":"communication-4-svgrepo-com.svg"
+      },
+      {
+        "id": "8",
+        "name": "Adaptability",
+        "description": "Work in many remote and/or harsh environments (offshore, camps, jungle)",
+        "skills": [],
+        "image":"oil-platform-svgrepo-com.svg"
+      },
+      {
+        "id": "9",
+        "name": "Time management",
+        "description": "Used to work under high pressure in the field.",
+        "skills": [],
+        "image":"time-sand-svgrepo-com.svg"
+      }
+    ]
+  }
+  
