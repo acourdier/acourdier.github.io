@@ -22,6 +22,10 @@ $(document).ready(function() {
                 $('#projectModal .modal-img').attr('src', `assets/img/portfolio/${project.image}`);
                 $('#projectModal .description').html(project.description);
                 $('#projectModal .scope').html(`<b>Key responsibilities:</b> ${project.scope.join(', ')}`);
+                
+                const techLogos = project.tech_logos ? project.tech_logos.map(logo => `<img src="assets/img/logo/${logo}" alt="${logo}" class="me-2" style="height: 75px;">`).join('') : '';
+                
+                $('#projectModal .modal-logos').html(techLogos);
             } else {
                 console.log('Project not found!');
             }

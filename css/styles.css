@@ -4324,6 +4324,7 @@ margin-bottom: 0;
 .card-img,
 .card-img-top,
 .card-img-bottom {
+  min-height: 150px;
   width: 100%;
   height: 12vw;
   object-fit: cover;
@@ -4342,8 +4343,8 @@ margin-bottom: 0;
 }
 
 .modal-img {
-  max-height: 20vw;
   max-width: 75%;
+  max-height: 350px;
   object-fit: scale-down;
 }
 
@@ -5302,7 +5303,7 @@ margin-bottom: 0;
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: #fff;
+  --bs-modal-bg: #e1e1e1ee;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 0.125rem;
   --bs-modal-border-radius: 0.75rem;

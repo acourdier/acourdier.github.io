@@ -10,6 +10,7 @@
         "scope": ["site survey", "budget offer"],
         "image": "pp-pe-730x412.jpg",
         "tech_skills": ["GE Mark VI", "Bently Nevada Orbit60", "CCC S3+"],
+        "tech_logos": ["ge-icon.png", "bently-nevada-icon.jpg", "ccc-icon.png"],
         "system_skills": ["Gas turbine", "Compressor"],
         "industry_skills": ["Oil & gas"]
       },
@@ -23,6 +24,7 @@
         "scope": ["cabinet installation and wiring", "commissioning"],
         "image": "sdk-940x564.jpg",
         "tech_skills": ["GE Fanuc", "ABB 800xa", "Bently Nevada Orbit60"],
+        "tech_logos": ["ge-icon.png",  "bently-nevada-icon.jpg", "abb-icon.png"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Oil & gas"]
       },
@@ -36,6 +38,7 @@
         "scope": ["logic extraction", "technical documentation", "PLC programming", "HMI development", "factory acceptance testing", "commissioning"],
         "image": "tn-fpso-664x400-1.jpg",
         "tech_skills": ["ABB 800xa", "Modbus TCP", "Bently Nevada"],
+        "tech_logos": ["ge-icon.png",  "bently-nevada-icon.jpg", "abb-icon.png"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Oil & gas"]
       },
@@ -49,6 +52,7 @@
         "scope": ["commissioning"],
         "image": "sa-fpso-827x468.jpg",
         "tech_skills": ["Allen Bradley", "PLC-5", "RSLogix 5000", "Bently Nevada"],
+        "tech_logos": ["allen_bradley_logo-scaled-1-2.png",  "bently-nevada-icon.jpg", "abb-icon.png"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Oil & gas"]
       },
@@ -61,7 +65,8 @@
         "description": "Upgrade study of aging control system and communication troubleshooting between the dam substation and the main operating facilities located in the nearby town. The communication is performed via OPC over a fibre optic line. An analysis of the communicaton system architecture showed that many intermediate OPC gateways were used with multiple protocols (XML, DA), hereby causing heavy delays and disruptions. A solution was found by configuring OPC DA with only one server and one client on either ends of the line.",
         "scope": ["control system ugrade study, OPC communication troubleshooting"],
         "image": "id-pln-1147x860.jpg",
-        "tech_skills": ["Yokogawa", "Wireshark", "OPC DA", "Bently Nevada"],
+        "tech_skills": ["Yokogawa", "Wireshark", "OPC DA"],
+        "tech_logos": ["yokogawa-icon.png",  "wireshark-svgrepo-com.svg"],
         "system_skills": ["Hydraulic dam", "Speed control"],
         "industry_skills": ["Power generation"]
       },
@@ -75,6 +80,7 @@
         "scope": ["logic extraction", "technical documentation", "PLC programming", "HMI development", "factory acceptance testing", "commissioning"],
         "image": "ba-980x683.jpg",
         "tech_skills": ["Siemens S7", "Siemens PCS7", "WinCC"],
+        "tech_logos": ["siemens-icon.webp"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Chemical plant"]
       },
@@ -88,6 +94,7 @@
         "scope": ["HMI migration", "PC recovery"],
         "image": "etap-1116x744.jpg",
         "tech_skills": ["Allen Bradley","Windows NT"],
+        "tech_logos": ["allen_bradley_logo-scaled-1-2.png"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Oil & gas"]
       },
@@ -101,6 +108,7 @@
         "scope": ["network hardware replacement","network re-configuration","workstation re-configuration","testing"],
         "image": "tap-863x486.jpg",
         "tech_skills": ["Siemens PCS7","WinCC","Windows Server","Industrial network","IT security"],
+        "tech_logos": ["siemens-icon.webp"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Oil & gas"]
       },
@@ -114,6 +122,7 @@
         "scope": ["logic extraction", "technical documentation", "PLC programming", "HMI development", "factory acceptance testing", "commissioning"],
         "image": "am-768x432.webp",
         "tech_skills": ["MAN Turbolog","ABB Freelance"],
+        "tech_logos": ["man-icon.jpg","abb-icon.png"],
         "system_skills": ["Compressor"],
         "industry_skills": ["Steel manufacturing"]
       },
@@ -127,6 +136,7 @@
         "scope": ["logic extraction", "technical documentation", "PLC programming", "HMI development", "factory acceptance testing", "commissioning"],
         "image": "am-zn-1116x744.jpg",
         "tech_skills": ["CCC S3++","ABB 800xa"],
+        "tech_logos": ["abb-icon.png","ccc-icon.png"],
         "system_skills": ["Compressor","VFD","Steam turbine"],
         "industry_skills": ["Steel manufacturing"]
       },
@@ -153,6 +163,7 @@
         "scope": ["hardware replacement", "start-up"],
         "image": "gazcomp-795x530.jpg",
         "tech_skills": ["Siemens S7","WinCC"],
+        "tech_logos": ["siemens-icon.webp"],
         "system_skills": ["Compressor", "Magnetic bearing"],
         "industry_skills": ["Oil & gas"]
       },
@@ -166,6 +177,7 @@
         "scope": ["test operations", "software development", "hardware commissioning"],
         "image": "gt-1080x608.jpeg",
         "tech_skills": ["NI LabVIEW", "NI cRIO"],
+        "tech_logos": ["labview-svgrepo-com.svg"],
         "system_skills": ["Gas turbine", "Combustor"],
         "industry_skills": ["Power generation", "Aviation"]
       },
@@ -179,6 +191,7 @@
         "scope": ["software development", "infrastructure", "operation", "algorithm development"],
         "image": "turboinsight-1605x1127.png",
         "tech_skills": ["Django","Linux","PostgreSQL","Web","Python","Docker"],
+        "tech_logos": ["django-icon-svgrepo-com.svg","linux-svgrepo-com.svg","postgresql-logo-svgrepo-com.svg","python-svgrepo-com.svg","docker-logo-svgrepo-com.svg"],
         "system_skills": ["Compressor","Steam turbine"],
         "industry_skills": ["Maintenance"]
       },
@@ -192,6 +205,7 @@
         "scope": ["software development","software integration"],
         "image": "cmap-1358x744.png",
         "tech_skills": ["Python"],
+        "tech_logos": ["python-svgrepo-com.svg"],
         "system_skills": ["Compressor"],
         "industry_skills": []
       },
@@ -205,6 +219,7 @@
         "scope": ["software development","software integration"],
         "image": "stperf-446x409.jpg",
         "tech_skills": ["Python"],
+        "tech_logos": ["python-svgrepo-com.svg"],
         "system_skills": ["Steam turbine"],
         "industry_skills": []
       },
@@ -218,6 +233,7 @@
         "scope": ["software development"],
         "image": "ftla-1918x1039.PNG",
         "tech_skills": ["NI LabVIEW","OPC DA"],
+        "tech_logos": ["labview-svgrepo-com.svg"],
         "system_skills": [],
         "industry_skills": []
       },
@@ -231,6 +247,7 @@
         "scope": ["software development", "test operations", "video hardware selection"],
         "image": "vs-996x932.jpeg",
         "tech_skills": ["NI LabVIEW","NI Vision","Video processing", "Video streaming"],
+        "tech_logos": ["labview-svgrepo-com.svg"],
         "system_skills": ["Gas turbine", "Video hardware and software"],
         "industry_skills": ["Power generation"]
       },
@@ -244,6 +261,7 @@
         "scope": ["research"],
         "image": "OIG2.jpg",
         "tech_skills": ["Machine Learning","Neural networks","Matlab"],
+        "tech_logos": ["matlab-svgrepo-com.svg"],
         "system_skills": ["Gas turbine"],
         "industry_skills": ["Power generation","Aviation"]
       }
